@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+logs/
+*.log
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Docker cache and temporary files
+.cache/
+
+# App data (runtime files that shouldn't be committed)
+src/search_by_image/data/
+src/search_by_image/metadata-files/
+src/search_by_image/uploads/
+
+# AI/ML model files
+*.pt
+*.h5
+*.ckpt
+*.tflite

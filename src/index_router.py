@@ -1,0 +1,1 @@
+from src.search_by_image.search import app
